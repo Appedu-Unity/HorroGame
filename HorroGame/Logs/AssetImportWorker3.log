@@ -1,0 +1,1379 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 16215 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity hub\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/unityClone/HorroGame/HorroGame
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+64549
+Successfully changed project path to: D:/unityClone/HorroGame/HorroGame
+D:/unityClone/HorroGame/HorroGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 98.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path D:/unity hub/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unityClone/HorroGame/HorroGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   31.0.15.2230
+Initialize mono
+Mono path[0] = 'D:/unity hub/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity hub/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity hub/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity hub/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity hub/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity hub/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006973 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 88.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (494ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (128ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013976 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unityClone\HorroGame\HorroGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unityClone\HorroGame\HorroGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.372 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1373ms)
+		BeginReloadAssembly (309ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (936ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3399 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.8 KB). Loaded Objects now: 3867.
+Memory consumption went from 120.6 MB to 120.5 MB.
+Total: 5.312000 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.218400 ms MarkObjects: 4.686000 ms  DeleteObjects: 0.104700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1518283.284420 seconds.
+  path: Assets/Abandoned park/Animations/But1.controller
+  artifactKey: Guid(f48476f228b647142941e4f7ae1d6582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Animations/But1.controller using Guid(f48476f228b647142941e4f7ae1d6582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f486d89a7d2806d6aa0cc4a76e522beb') in 0.206130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Amusement Park Stylized 1/MATERIALS/M_car_02 1.mat
+  artifactKey: Guid(261c893d48bab2341a76f82d5754bb54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/MATERIALS/M_car_02 1.mat using Guid(261c893d48bab2341a76f82d5754bb54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1ae6dc9ec6df2b3a8a39ca96820285e') in 0.089271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Abandoned park/Scenes/Triggers demo.unity
+  artifactKey: Guid(8381abfb3f73fa74fb36c34a28d83ea5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Scenes/Triggers demo.unity using Guid(8381abfb3f73fa74fb36c34a28d83ea5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db3437ab439c732192f8a98cce77a8d1') in 0.021389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Abandoned park/Scripts/LoadButt.cs
+  artifactKey: Guid(dda9394f0e3bc9d49a0c5e2dfcea8a7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Scripts/LoadButt.cs using Guid(dda9394f0e3bc9d49a0c5e2dfcea8a7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14f20dbe952a474d19370f78636957c9') in 0.034266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Abandoned park/Scenes/demo.unity
+  artifactKey: Guid(92f3615c03558894cbdb450e252608fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Scenes/demo.unity using Guid(92f3615c03558894cbdb450e252608fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a106a9a3d5e8c6d9bd7c1953106fc7e8') in 0.025064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Abandoned park/Scripts/LoadScene.cs
+  artifactKey: Guid(a77085544b208ff4fba06b8489965b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Scripts/LoadScene.cs using Guid(a77085544b208ff4fba06b8489965b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4ffbf08f2e4784eb1f1b341a26ee42e') in 0.029968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Abandoned park/Prefabs/Main Camera.prefab
+  artifactKey: Guid(3251f557ee5aa45438a316d0ffaa689b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Prefabs/Main Camera.prefab using Guid(3251f557ee5aa45438a316d0ffaa689b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0980f8434638abd03499d8f84538e5de') in 0.066525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Abandoned park/Sounds/Camera zoom.mp3
+  artifactKey: Guid(2871d3b37098ed64083dc7765bdf27ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Sounds/Camera zoom.mp3 using Guid(2871d3b37098ed64083dc7765bdf27ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13a80656fcaa60e4825dc7a089869cb9') in 0.165480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Abandoned park/Prefabs/Props.prefab
+  artifactKey: Guid(fa27015a7201fef469059b00aebe2417) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Prefabs/Props.prefab using Guid(fa27015a7201fef469059b00aebe2417) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '393acc9a748bbfe0193558c371cf9427') in 0.587775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Abandoned park/Scripts/PlayerController.cs
+  artifactKey: Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Scripts/PlayerController.cs using Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6b51cb80e3714fc92a5ce7732b70691') in 0.028904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Abandoned park/Prefabs/EventSystem.prefab
+  artifactKey: Guid(4d351767a11424a4b93adb3a12abc188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Prefabs/EventSystem.prefab using Guid(4d351767a11424a4b93adb3a12abc188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac929cf748278e91d64b8493cd577edc') in 0.037508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Abandoned park/Scripts/Menu.cs
+  artifactKey: Guid(23afcddf867ac5142a60e7c5f96a889d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Scripts/Menu.cs using Guid(23afcddf867ac5142a60e7c5f96a889d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40e22efb6f4a8990f6aa71a2e7bb8c85') in 0.028679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Amusement Park Stylized 1/MATERIALS/M_metallic 1.mat
+  artifactKey: Guid(765eab627287ed94bbdf279f079ba7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/MATERIALS/M_metallic 1.mat using Guid(765eab627287ed94bbdf279f079ba7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '365bb2e0b41d5cc3d4f455800001cd99') in 0.038169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Abandoned park/Models/cans/can_0.FBX
+  artifactKey: Guid(5df587a2538f21d4d887707f78ec0003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/cans/can_0.FBX using Guid(5df587a2538f21d4d887707f78ec0003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e55e2976baef15659bbdb6302ef3a68') in 0.104233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Abandoned park/Models/Lamp 5/lamp5.FBX
+  artifactKey: Guid(a20f6bab9f8f1964f970abf8e6ebac0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Lamp 5/lamp5.FBX using Guid(a20f6bab9f8f1964f970abf8e6ebac0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '221c8ab61c07285bdfa0d5ec599a7ca7') in 0.049360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Abandoned park/Models/cans/can_3.FBX
+  artifactKey: Guid(c267becae42061a4c8bc024fb50b7416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/cans/can_3.FBX using Guid(c267becae42061a4c8bc024fb50b7416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c640b5d721335940fe1eb5a1ea036b1') in 0.052437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Amusement Park Stylized 1/MATERIALS/M_colorpalette.mat
+  artifactKey: Guid(c62df0fdc7ba871418ff958edf0a85a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/MATERIALS/M_colorpalette.mat using Guid(c62df0fdc7ba871418ff958edf0a85a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '620201c69599c9cca8aeadc5a78a4a48') in 0.044325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Abandoned park/Models/car/car.FBX
+  artifactKey: Guid(32bd36845163f3549bf582cbc07fbeb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/car/car.FBX using Guid(32bd36845163f3549bf582cbc07fbeb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '302faab6f9b19a9d56ee36c8e6560d28') in 0.056713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Amusement Park Stylized 1/TERRAIN DATA/Terrain Amusement.asset
+  artifactKey: Guid(a0d93975de2f7d942bb2f7c4a583e6d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/TERRAIN DATA/Terrain Amusement.asset using Guid(a0d93975de2f7d942bb2f7c4a583e6d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '542f182c55fb8b04f0a1a18d57d793e2') in 0.075065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Abandoned park/Models/Cover/Cover.fbx
+  artifactKey: Guid(544347c2f0f05354a9088a6a172c4ffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Cover/Cover.fbx using Guid(544347c2f0f05354a9088a6a172c4ffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e03da13cc2b71d229e8f07e64f80ae7f') in 0.048908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Abandoned park/Models/cans/can_2.FBX
+  artifactKey: Guid(c79950933c5ae414b86c1ab9d385e298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/cans/can_2.FBX using Guid(c79950933c5ae414b86c1ab9d385e298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef342f306d43d3f48cbcb04a95848875') in 0.063278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Abandoned park/Models/Bin bag/binbag.FBX
+  artifactKey: Guid(fee3ac63288d2164c908a5a0eb35f223) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Bin bag/binbag.FBX using Guid(fee3ac63288d2164c908a5a0eb35f223) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69fac6763bc7c361d3ba28c2f03151fa') in 0.059611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Amusement Park Stylized 1/MATERIALS/M_red.mat
+  artifactKey: Guid(e3dc4ba7ed610f245a81825851fcd5d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/MATERIALS/M_red.mat using Guid(e3dc4ba7ed610f245a81825851fcd5d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fe09b043889104408b95c24fae70f6a') in 0.040980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Abandoned park/Particles/Rain/Sun Town Rain.prefab
+  artifactKey: Guid(d9b95a1e5f0e1b3448df62d39afccc21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Particles/Rain/Sun Town Rain.prefab using Guid(d9b95a1e5f0e1b3448df62d39afccc21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '906fac061d2659c9fde31e5a8c6bc20f') in 0.154922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Abandoned park/Models/Trash/trash.FBX
+  artifactKey: Guid(fc233f97c16065c4bb29e9fb1bad9626) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Trash/trash.FBX using Guid(fc233f97c16065c4bb29e9fb1bad9626) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '297630db0a119a6f5c989c14b6522ddb') in 0.047421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Abandoned park/Models/raills/raills.FBX
+  artifactKey: Guid(8eb8dbd036b7b1143a0b0f69f26e99f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/raills/raills.FBX using Guid(8eb8dbd036b7b1143a0b0f69f26e99f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc208d057a6c337fed14fe81a26f379f') in 0.062567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Abandoned park/Models/house/door.fbx
+  artifactKey: Guid(636977716051d3b4382c0a67887e4f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/house/door.fbx using Guid(636977716051d3b4382c0a67887e4f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44355edaa1433f2ccbbd67459162c932') in 0.055726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Abandoned park/Sounds/Click Sound.mp3
+  artifactKey: Guid(a5aabde53e35bf7419d6bb7eca918049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Sounds/Click Sound.mp3 using Guid(a5aabde53e35bf7419d6bb7eca918049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85ef6b75b3e553098c7ec8757c497014') in 0.098100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Abandoned park/Models/Additional textures/wall_01_d.tga
+  artifactKey: Guid(f98b77e445dd5ef4aa6bc278f58d76db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Additional textures/wall_01_d.tga using Guid(f98b77e445dd5ef4aa6bc278f58d76db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e280384d5babe7a6cc7f6dcefcd9775') in 0.116770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Amusement Park Stylized 1/CHARACTERS/woman_park/SM_woman_park.fbx
+  artifactKey: Guid(f52e48d28f17b704caf3ffb162ca3d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/CHARACTERS/woman_park/SM_woman_park.fbx using Guid(f52e48d28f17b704caf3ffb162ca3d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c2336ee9eeb32d15ce09d17b73cc287') in 0.060564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Buildings/SM_shop_candy_01.fbx
+  artifactKey: Guid(6d79f5e9e0464744896baf5b63e75dab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Buildings/SM_shop_candy_01.fbx using Guid(6d79f5e9e0464744896baf5b63e75dab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe100468117e883c433522080d8ee44b') in 0.144216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Buildings/SM_hotdog_car.fbx
+  artifactKey: Guid(572f62178da6ba54b9b89b16022e1df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Buildings/SM_hotdog_car.fbx using Guid(572f62178da6ba54b9b89b16022e1df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c4b04e681ba3805ab3c8b3526616ef4') in 0.060246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Modular/SM_fence_row.fbx
+  artifactKey: Guid(d558abb5329c11f48936a97c56000c41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Modular/SM_fence_row.fbx using Guid(d558abb5329c11f48936a97c56000c41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07afd8f5975c4684c123d6b3a7c49012') in 0.046053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Abandoned park/Texture/Skybox_Cubemap/Front.png
+  artifactKey: Guid(0d43858f2bbfede44b2afbd1568b656d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Texture/Skybox_Cubemap/Front.png using Guid(0d43858f2bbfede44b2afbd1568b656d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4eb1e098ded7afa8bffc8562009a63c') in 0.089950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Modular/SM_parkinglot_park.fbx
+  artifactKey: Guid(da18a1b6597dc394f913e86043539cba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Modular/SM_parkinglot_park.fbx using Guid(da18a1b6597dc394f913e86043539cba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcbff831936b0f657e69e67d496bc1e3') in 0.065442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Props/SM_car_01.fbx
+  artifactKey: Guid(630a57662279a874987d426c839111f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Props/SM_car_01.fbx using Guid(630a57662279a874987d426c839111f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '095a616da623935939cf87c12a8b249c') in 0.093837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Props/SM_icecream_01.fbx
+  artifactKey: Guid(465e96aeb6457a547a79254299627ff2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Props/SM_icecream_01.fbx using Guid(465e96aeb6457a547a79254299627ff2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fd587e196a2ff231380e09926a8a3f4') in 0.063052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Props/SM_fountain_benches.fbx
+  artifactKey: Guid(3a155bb50850bd44eb8cbcb4d600a0a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Props/SM_fountain_benches.fbx using Guid(3a155bb50850bd44eb8cbcb4d600a0a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '663356f6445d749282c55afb91c3d350') in 0.061480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Nature/SM_tree_02.fbx
+  artifactKey: Guid(b392393a07c0416458126da2e5b451f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Nature/SM_tree_02.fbx using Guid(b392393a07c0416458126da2e5b451f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a626fb67cd30158f85e7668895d8635') in 0.056659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Buildings/SM_shop_soda.fbx
+  artifactKey: Guid(23d83f26b65bcae42a50ec1328e41091) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Buildings/SM_shop_soda.fbx using Guid(23d83f26b65bcae42a50ec1328e41091) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c29954aa26796ce5b59e01c73d1c8dfc') in 0.045418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Abandoned park/Texture/Skybox_Cubemap/Back.png
+  artifactKey: Guid(b0fa46f91d694e14993f7f93ab9bc002) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Texture/Skybox_Cubemap/Back.png using Guid(b0fa46f91d694e14993f7f93ab9bc002) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cdc63d4813c04f5eab859c5822cfb5e') in 0.051508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Nature/SM_rock_01.fbx
+  artifactKey: Guid(abcba89b58fdc084180a39a41f7c8312) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Nature/SM_rock_01.fbx using Guid(abcba89b58fdc084180a39a41f7c8312) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '081e0a5ae9d163fa59a7e2b029299baf') in 0.055994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Nature/SM_bush_01.fbx
+  artifactKey: Guid(db545a831ff078f4587f34bd62281c3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Nature/SM_bush_01.fbx using Guid(db545a831ff078f4587f34bd62281c3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42031e369df4d38c723ad8c58cf1b3ff') in 0.048032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Roller Coaster/SM_rail_down_large.fbx
+  artifactKey: Guid(1315b83a860ca4a468796a6cfd107d8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Roller Coaster/SM_rail_down_large.fbx using Guid(1315b83a860ca4a468796a6cfd107d8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '434d3cbde117c0f178a6885508f4e57d') in 0.056746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Roller Coaster/SM_rail_curve_large_45.fbx
+  artifactKey: Guid(4137d0c4d21b0c245acfcdd8deb27f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Roller Coaster/SM_rail_curve_large_45.fbx using Guid(4137d0c4d21b0c245acfcdd8deb27f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3de8ffa1825ccc8cf424397bc3ab922') in 0.062325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Rides/SM_coach_carousel.fbx
+  artifactKey: Guid(6f927dbbb72215d45bc81ec202a7443e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Rides/SM_coach_carousel.fbx using Guid(6f927dbbb72215d45bc81ec202a7443e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'adc8a4eca71c47d45b2b8bd1c895833a') in 0.058698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Roller Coaster/SM_rail_straight_small.fbx
+  artifactKey: Guid(5e3cc24e15d555c4c8f21da53d912176) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Roller Coaster/SM_rail_straight_small.fbx using Guid(5e3cc24e15d555c4c8f21da53d912176) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '491e8c554c54cacae639e1ea0023644c') in 0.048652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Props/SM_table_bench_park.fbx
+  artifactKey: Guid(b4bee97a96817914fb0f3d7322542f79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Props/SM_table_bench_park.fbx using Guid(b4bee97a96817914fb0f3d7322542f79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce5a4418a23658ad272e185eb3910b7a') in 0.062158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Props/SM_table_cafe_park.fbx
+  artifactKey: Guid(220231450a39fc94fa1f761e606c419e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Props/SM_table_cafe_park.fbx using Guid(220231450a39fc94fa1f761e606c419e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d59467634633551825651227a449626') in 0.054641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Roller Coaster/SM_rail_straight_large.fbx
+  artifactKey: Guid(daf4416125699e64893b309d5f817a51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Roller Coaster/SM_rail_straight_large.fbx using Guid(daf4416125699e64893b309d5f817a51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd75b0f7d59c0867d75eba8dc989fc707') in 0.056135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Props/SM_chair_cafe_park.fbx
+  artifactKey: Guid(c84cf993aca8b2b44a811c8c7088c55b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Props/SM_chair_cafe_park.fbx using Guid(c84cf993aca8b2b44a811c8c7088c55b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd417aa455a374002ddf714bc6b1ab19') in 0.053893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Roller Coaster/SM_rollercoaster_ride.fbx
+  artifactKey: Guid(049b31bb944608a4d9a6227bb7dbe703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Roller Coaster/SM_rollercoaster_ride.fbx using Guid(049b31bb944608a4d9a6227bb7dbe703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9e634f982805ae2a0c2f06638eae9bc') in 0.091569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Abandoned park/Sounds/Camera shot.mp3
+  artifactKey: Guid(ecc967c41243d554e80a1fc39eec06be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Sounds/Camera shot.mp3 using Guid(ecc967c41243d554e80a1fc39eec06be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2374b29a252e8c80dd8ea06d6d36aad6') in 0.109722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Modular/SM_stairs_park.fbx
+  artifactKey: Guid(ec57956fb63a9a14bbd7716ec14e7ec6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Modular/SM_stairs_park.fbx using Guid(ec57956fb63a9a14bbd7716ec14e7ec6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ad367d4641f2635478af9c8d4668050') in 0.072579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Abandoned park/Images/auto icon.png
+  artifactKey: Guid(428b2d48d65a5f34191b8895c8c48329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Images/auto icon.png using Guid(428b2d48d65a5f34191b8895c8c48329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '735730f88416177250a0cabc1fd730fd') in 0.057992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Abandoned park/Models/small rocks/rocks1.FBX
+  artifactKey: Guid(463bf2186ba90f64fa376878e2790455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/small rocks/rocks1.FBX using Guid(463bf2186ba90f64fa376878e2790455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41904e6a5c65a671a2784ace946f240b') in 0.056490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Nature/SM_tree_01.prefab
+  artifactKey: Guid(6015e38ec681e754887b2c039c0779f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Nature/SM_tree_01.prefab using Guid(6015e38ec681e754887b2c039c0779f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5aae72bbb2cc9130e1976bfa00ddb803') in 0.047852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Modular/SM_walk_02.prefab
+  artifactKey: Guid(6f3bcbb43c7e03c4e9b841130b6be9db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Modular/SM_walk_02.prefab using Guid(6f3bcbb43c7e03c4e9b841130b6be9db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a4c216067c377fb56ee3a1b4a8d0b73') in 0.046556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Modular/SM_walk_03.prefab
+  artifactKey: Guid(2e5707c6f4df97b4d964387c827642ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Modular/SM_walk_03.prefab using Guid(2e5707c6f4df97b4d964387c827642ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7c5de1c9f2845b9e79f83682af395ad') in 0.037086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Amusement Park Stylized 1/FBX FIles/Nature/SM_rock_02.fbx
+  artifactKey: Guid(51db14caf221ed14c96cca5e7b49c5ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/FBX FIles/Nature/SM_rock_02.fbx using Guid(51db14caf221ed14c96cca5e7b49c5ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e4a9999c925677fec769475ffa623cf') in 0.069715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Modular/SM_parkinglot_park.prefab
+  artifactKey: Guid(8ef23fe651ccd1d48852173609157046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Modular/SM_parkinglot_park.prefab using Guid(8ef23fe651ccd1d48852173609157046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce446bbe1b35f678a552efca2f7839c1') in 0.047223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Abandoned park/Models/Additional textures/metal_beam_s.tga
+  artifactKey: Guid(264df168e88cf7243b1512855c6077e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Additional textures/metal_beam_s.tga using Guid(264df168e88cf7243b1512855c6077e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6c16cebf693722769d68f754f2db44a') in 0.059437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Modular/SM_fence_round.prefab
+  artifactKey: Guid(29d5512945b699a4daef57ff1d0adbcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Modular/SM_fence_round.prefab using Guid(29d5512945b699a4daef57ff1d0adbcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca1d6ced6af7d9a7c955226b25a14ed1') in 0.034945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Amusement Park Stylized 1/MATERIALS/Textures/M_woman_park_albedo 1.png
+  artifactKey: Guid(031bb6c7edbdb2f4c9c9266038245a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/MATERIALS/Textures/M_woman_park_albedo 1.png using Guid(031bb6c7edbdb2f4c9c9266038245a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd553662adae9dc3912625b484566622e') in 0.041395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Props/SM_icecream_01.prefab
+  artifactKey: Guid(590e44b3cac0c39469bace23d3ce0f90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Props/SM_icecream_01.prefab using Guid(590e44b3cac0c39469bace23d3ce0f90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '208961cae114f87fb2d3685a231ef8c0') in 0.041973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Rides/SM_carousel_rides.prefab
+  artifactKey: Guid(d9ee1a1b568d7fc48a37bc66aad419a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Rides/SM_carousel_rides.prefab using Guid(d9ee1a1b568d7fc48a37bc66aad419a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52477dfd3aa1f080ca72d2d513a6b25e') in 0.042541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Props/SM_trashbin_park_02.prefab
+  artifactKey: Guid(925a2a1b91dface42b8a55f74b64ad7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Props/SM_trashbin_park_02.prefab using Guid(925a2a1b91dface42b8a55f74b64ad7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ab960d1b40dd15fe14d21020c2c1915') in 0.038744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Props/SM_mustard.prefab
+  artifactKey: Guid(ec3d5a0c4b7e14041ab76d456452f231) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Props/SM_mustard.prefab using Guid(ec3d5a0c4b7e14041ab76d456452f231) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4657a95c60afcd9b5cc96e44f2fc1dd2') in 0.030911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Props/SM_ketchup.prefab
+  artifactKey: Guid(03f78e198b244d24a97ff5614009c513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Props/SM_ketchup.prefab using Guid(03f78e198b244d24a97ff5614009c513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de9ed7382df2842d877f300360c4e2e6') in 0.036579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Modular/SM_wall_park.prefab
+  artifactKey: Guid(3cef8b9925d2cec4f8592e4cb4d245b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Modular/SM_wall_park.prefab using Guid(3cef8b9925d2cec4f8592e4cb4d245b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3535eddd22515fe5b8a543fdb6e3a356') in 0.040864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Roller Coaster/SM_pillar_rollercoaster.prefab
+  artifactKey: Guid(158777338c41ad542b2be8b8c1f4e166) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Roller Coaster/SM_pillar_rollercoaster.prefab using Guid(158777338c41ad542b2be8b8c1f4e166) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfb7e2af105b48d89470b32afea5fa70') in 0.037376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Amusement Park Stylized 1/MATERIALS/Textures/M_woman_park_albedo.png
+  artifactKey: Guid(3c4245c6d6f318142a6a783bc074c50c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/MATERIALS/Textures/M_woman_park_albedo.png using Guid(3c4245c6d6f318142a6a783bc074c50c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd832863d10465a4253ffb17ea9419066') in 0.043501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Rides/SM_pirateship_ship.prefab
+  artifactKey: Guid(0573bf78caae8a4478255bb5865e3b3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Rides/SM_pirateship_ship.prefab using Guid(0573bf78caae8a4478255bb5865e3b3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56a243a1d78f5229ec4ef79362f9c899') in 0.040200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Rides/SM_cabin_ferriswheel.prefab
+  artifactKey: Guid(7d1633e3e33ddfb4a87d2612240fa035) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Rides/SM_cabin_ferriswheel.prefab using Guid(7d1633e3e33ddfb4a87d2612240fa035) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7842f1ca76d18e28ac55608afd53c0aa') in 0.040523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Roller Coaster/SM_rail_up_small.prefab
+  artifactKey: Guid(295dbdb5cea352e4cbb7c21b9e81b4ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Roller Coaster/SM_rail_up_small.prefab using Guid(295dbdb5cea352e4cbb7c21b9e81b4ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0150c6f5c0ad72c3ba24733eeacd6a5e') in 0.038393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Abandoned park/Models/balls/Textures/balls_s.tga
+  artifactKey: Guid(5d49828a60eb5a14198f002d2e73e791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/balls/Textures/balls_s.tga using Guid(5d49828a60eb5a14198f002d2e73e791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28f76108ced122f78d6bafe0e193c926') in 0.058251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Abandoned park/Models/Additional textures/Materials/wall_04_d.mat
+  artifactKey: Guid(4c5b6b1375af1b342bad9a16a7c3ce3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Additional textures/Materials/wall_04_d.mat using Guid(4c5b6b1375af1b342bad9a16a7c3ce3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79b8cba33078609d00c31bed7964c61e') in 0.044553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Abandoned park/Models/avtomat/Materials/avtomat_03_d.mat
+  artifactKey: Guid(73e3ef23ac090824c9e01120a07f0b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/avtomat/Materials/avtomat_03_d.mat using Guid(73e3ef23ac090824c9e01120a07f0b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05401f640c3f3b6549c0809ac7ff473a') in 0.086751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Abandoned park/Models/Bin bag/Materials/binbag_d.mat
+  artifactKey: Guid(3fe7913b67dfb2b44b53c5e25f93032c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Bin bag/Materials/binbag_d.mat using Guid(3fe7913b67dfb2b44b53c5e25f93032c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'daebf58239b454d31980c9540a36bde1') in 0.063386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Roller Coaster/SM_rail_up_large.prefab
+  artifactKey: Guid(e82a80fb7a521954ba019c72767d8639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Roller Coaster/SM_rail_up_large.prefab using Guid(e82a80fb7a521954ba019c72767d8639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6571bff646780627200666603a5661d') in 0.042890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Abandoned park/Models/avtomat/Materials/avtomat_04_d.mat
+  artifactKey: Guid(39424c01d68ae5044a506d71cc4f6596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/avtomat/Materials/avtomat_04_d.mat using Guid(39424c01d68ae5044a506d71cc4f6596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fce2346e150f0d73b1607deba97a7ec') in 0.055870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Abandoned park/Models/avtomat/Textures/avtomat_n.tga
+  artifactKey: Guid(e30a64cc9af935741bfa49c265654149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/avtomat/Textures/avtomat_n.tga using Guid(e30a64cc9af935741bfa49c265654149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5ea5b321739b1923b78a8116a4ac16e') in 0.065261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Abandoned park/Models/Camera/Textures/camera_d.tga
+  artifactKey: Guid(9f717148bf3050044a03e0633f9f03dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Camera/Textures/camera_d.tga using Guid(9f717148bf3050044a03e0633f9f03dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '961b4cb8b4322b6c2cd46e90ea6b315b') in 0.048934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Abandoned park/Models/Box 1/Materials/box_01_d 1.mat
+  artifactKey: Guid(d1f5502b853d77145a76ba8ef1de88f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Box 1/Materials/box_01_d 1.mat using Guid(d1f5502b853d77145a76ba8ef1de88f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fde98f48aec42c01393b2960101541d') in 0.044039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Abandoned park/Models/car/Materials/car_01_d.mat
+  artifactKey: Guid(8f3ea14dff10a39488ebfd5bd2b23c93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/car/Materials/car_01_d.mat using Guid(8f3ea14dff10a39488ebfd5bd2b23c93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a70582c2b55a762585b8a6a3237d9007') in 0.056637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Abandoned park/Models/cans/Textures/wrap_d.tga
+  artifactKey: Guid(daabba49190261546813218f5ba9b184) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/cans/Textures/wrap_d.tga using Guid(daabba49190261546813218f5ba9b184) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f54fe133f26d0fce3bc39cd395d5b62') in 0.046803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Abandoned park/Models/Cardbord box/Materials/box_01_d.mat
+  artifactKey: Guid(9737dd906a2b3884ea73c474bdd59c08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Cardbord box/Materials/box_01_d.mat using Guid(9737dd906a2b3884ea73c474bdd59c08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cf1b32efffdcd94a6623dab9977ff0d') in 0.033339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Abandoned park/Models/car/Textures/car_n.tga
+  artifactKey: Guid(96a629f5b0ba91b4d9e9355658239c4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/car/Textures/car_n.tga using Guid(96a629f5b0ba91b4d9e9355658239c4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d34ae2dad06b88d15d5e1026b7ca8e9') in 0.145127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Rides/SM_wagon_carousel.prefab
+  artifactKey: Guid(227a41ff906896f4db0d690239c113c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Rides/SM_wagon_carousel.prefab using Guid(227a41ff906896f4db0d690239c113c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9d929005ab8e633c2257718f4ee4fab') in 0.040221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Abandoned park/Models/Coverd object/Materials/cloth_d.mat
+  artifactKey: Guid(a007e07e8bc23064781e52f32922ec3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Coverd object/Materials/cloth_d.mat using Guid(a007e07e8bc23064781e52f32922ec3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcbc7b4a8d476b8237ff24794b8974c7') in 0.042806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Abandoned park/Models/Foto Frame/Materials/None.mat
+  artifactKey: Guid(ef11f4154c8c6714eab4d56ffdf8a82e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Foto Frame/Materials/None.mat using Guid(ef11f4154c8c6714eab4d56ffdf8a82e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb46785a4c8cb155d1355ac543f11ee2') in 0.036965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Abandoned park/Models/gorki/Materials/concrete_01_d.mat
+  artifactKey: Guid(c1de6a812e6a6294994992d49ad04cbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/gorki/Materials/concrete_01_d.mat using Guid(c1de6a812e6a6294994992d49ad04cbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95a61a61922355af957a50ac0d556e3d') in 0.041715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Abandoned park/Models/Cone/Materials/No Name.mat
+  artifactKey: Guid(efb6169e627267c48bbae00194449ae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Cone/Materials/No Name.mat using Guid(efb6169e627267c48bbae00194449ae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2720abfb3df5a9c9ac46f001cf00b3d') in 0.047688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Abandoned park/Models/garbage 1/Textures/garbage_d.tga
+  artifactKey: Guid(ce0ad9e24e0949945b02fb12d8a4c00e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/garbage 1/Textures/garbage_d.tga using Guid(ce0ad9e24e0949945b02fb12d8a4c00e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c4d08647c45c3b1a1e2ea67f9779919') in 0.060714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Abandoned park/Models/Cone/Textures/cone_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(bc40de1b52225934e8405566bf2a31d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Cone/Textures/cone_DefaultMaterial_AlbedoTransparency.png using Guid(bc40de1b52225934e8405566bf2a31d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc37421a816bae9f80a0f3265956599f') in 0.061864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Abandoned park/Models/garbage 1/Textures/garbage_s.tga
+  artifactKey: Guid(c11a251fd52e23440b3bb4540707450b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/garbage 1/Textures/garbage_s.tga using Guid(c11a251fd52e23440b3bb4540707450b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '993e8d7da15d38711ad7055b4c2d98b2') in 0.058831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Abandoned park/Models/Bin bag/Textures/binbag_s.tga
+  artifactKey: Guid(48416a52783881a4eab5033cef04b331) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Bin bag/Textures/binbag_s.tga using Guid(48416a52783881a4eab5033cef04b331) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69386e5ae49b435cec1f280f6e19fef6') in 0.060665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Abandoned park/Models/house/Materials/wall_02_d.mat
+  artifactKey: Guid(162c40a2c33ebba4584573890bb321b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/house/Materials/wall_02_d.mat using Guid(162c40a2c33ebba4584573890bb321b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85de0026a7a4d5477504eef85647d36e') in 0.042598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Abandoned park/Models/hlad/Textures/hlad_n.tga
+  artifactKey: Guid(f3f73a2b7073bc346a35b2be31dbcd3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/hlad/Textures/hlad_n.tga using Guid(f3f73a2b7073bc346a35b2be31dbcd3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '383dc8a9ebf55191a9419645b27da979') in 0.074634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Abandoned park/Models/horse/Textures/horse_base_d.tga
+  artifactKey: Guid(741c9d732b4e8f84c9057a77a067d109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/horse/Textures/horse_base_d.tga using Guid(741c9d732b4e8f84c9057a77a067d109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dec3501d6d73dc1536467eb9f642fa6b') in 0.052619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Abandoned park/Models/hlad/Materials/No Name.mat
+  artifactKey: Guid(ec76f7f3516f456448521688cd459f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/hlad/Materials/No Name.mat using Guid(ec76f7f3516f456448521688cd459f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13f94fc5f0dc5f91ccd6b8594df6dcc8') in 0.043093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Abandoned park/Models/house/Pipe.fbm/door_01_d.tga
+  artifactKey: Guid(5c112388966cfa540b526cb40627e850) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/house/Pipe.fbm/door_01_d.tga using Guid(5c112388966cfa540b526cb40627e850) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d81d91f1767d480ded45a1ead2785d4') in 0.050718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Abandoned park/Models/horse/Materials/Diffuse.mat
+  artifactKey: Guid(b10518bfa6523564098dc06c544d7761) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/horse/Materials/Diffuse.mat using Guid(b10518bfa6523564098dc06c544d7761) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01a93debaac6583282566f82c169df82') in 0.040165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Abandoned park/Models/house/Pipe.fbm/concrete_01_d.tga
+  artifactKey: Guid(ca7d6541bee2e9648ac2a6c96c380a2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/house/Pipe.fbm/concrete_01_d.tga using Guid(ca7d6541bee2e9648ac2a6c96c380a2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bc1fcb6e0fa9c30c5f518a155d01774') in 0.046407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Abandoned park/Models/house/Pipe.fbm/pipes_d.tga
+  artifactKey: Guid(448590da151df4e419d39f5eccf3c758) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/house/Pipe.fbm/pipes_d.tga using Guid(448590da151df4e419d39f5eccf3c758) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08546ac5c25f8eaed7838bc4a2744a68') in 0.055694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Abandoned park/Models/house/Textures/metal_beam_s.tga
+  artifactKey: Guid(893d9ea4ecae30b428007d9ab1b5b74a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/house/Textures/metal_beam_s.tga using Guid(893d9ea4ecae30b428007d9ab1b5b74a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d87542c653445e904df55dc780a0e7f') in 0.052515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Abandoned park/Models/house/Textures/pipes_d.tga
+  artifactKey: Guid(a480f517d5ef8054eb79f6504489aba5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/house/Textures/pipes_d.tga using Guid(a480f517d5ef8054eb79f6504489aba5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cea47d5276f54251f870723590f8d70') in 0.058397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Abandoned park/Models/house/Textures/window_01_d.tga
+  artifactKey: Guid(7eca48e5eb4844141a3b8b469b302c1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/house/Textures/window_01_d.tga using Guid(7eca48e5eb4844141a3b8b469b302c1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e5b424c41e17323332686e17f1336a9') in 0.051362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Abandoned park/Models/Lamp 5/Materials/lamp5_d.mat
+  artifactKey: Guid(9b33f21ca6849e846abeed9e3d3c82ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Lamp 5/Materials/lamp5_d.mat using Guid(9b33f21ca6849e846abeed9e3d3c82ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e436d86a44f61bb153726a1859867dcb') in 0.079351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Abandoned park/Models/house/Pipe.fbm/wall_01_d.tga
+  artifactKey: Guid(5510acc3e8f43b6458358fb23fc5182f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/house/Pipe.fbm/wall_01_d.tga using Guid(5510acc3e8f43b6458358fb23fc5182f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe8fde72857e994041ece89787a22537') in 0.051904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Abandoned park/Models/house/Textures/metal_01_d.tga
+  artifactKey: Guid(99bbbd54c67246d49b5e8efffeb7b823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/house/Textures/metal_01_d.tga using Guid(99bbbd54c67246d49b5e8efffeb7b823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54c175b562988683a2435aed630de007') in 0.041720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Props/SM_fountain_01.prefab
+  artifactKey: Guid(f5495f025db13424689b2fdd6af4cd5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Props/SM_fountain_01.prefab using Guid(f5495f025db13424689b2fdd6af4cd5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e026b0af152ca6704424a0275cbf05c1') in 0.038991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Abandoned park/Models/lenta/Materials/lenta_d.mat
+  artifactKey: Guid(087630b92aeaf2b46a46de9b78068b67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/lenta/Materials/lenta_d.mat using Guid(087630b92aeaf2b46a46de9b78068b67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2adcb21a132481d949b0b5673e964188') in 0.050306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Abandoned park/Models/masks/Textures/mask_02.tga
+  artifactKey: Guid(10ff65c5ab3494a4fb627dce862b0449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/masks/Textures/mask_02.tga using Guid(10ff65c5ab3494a4fb627dce862b0449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ece04a9e6161f652633e5527298b541') in 0.055397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Abandoned park/Models/lenta/Materials/Box004Mat.mat
+  artifactKey: Guid(15c01a28d41040344b0e2760938f57e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/lenta/Materials/Box004Mat.mat using Guid(15c01a28d41040344b0e2760938f57e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08291b68ad05530985a305a9033830fb') in 0.043316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Abandoned park/Models/posters/Materials/poster_01.mat
+  artifactKey: Guid(bf3e4f2d072a21b46a73bcad30a833e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/posters/Materials/poster_01.mat using Guid(bf3e4f2d072a21b46a73bcad30a833e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b86b2b9af468316d3d4bd7bf2cd89a4d') in 0.054147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Abandoned park/Models/masks/Materials/mask_02.mat
+  artifactKey: Guid(83675a8cca736a540bc6f1c60917d662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/masks/Materials/mask_02.mat using Guid(83675a8cca736a540bc6f1c60917d662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc63ae7609b8dbf729e4b75bd425ffb3') in 0.040055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Abandoned park/Models/masks/Textures/mask_01.tga
+  artifactKey: Guid(4f92fde7ac03c5646997a85434baddd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/masks/Textures/mask_01.tga using Guid(4f92fde7ac03c5646997a85434baddd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '193d93042f75727129873535c4a09003') in 0.067518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Abandoned park/Models/lenta/Materials/Box005Mat.mat
+  artifactKey: Guid(94c3312b1d77a6041b44c1632556cfce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/lenta/Materials/Box005Mat.mat using Guid(94c3312b1d77a6041b44c1632556cfce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be6c359519daf9db4c514f014b187cea') in 0.046456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Abandoned park/Models/Sidewalk/Materials/No Name.mat
+  artifactKey: Guid(92df8ec52e28a4b48b962e9bf6c033f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Sidewalk/Materials/No Name.mat using Guid(92df8ec52e28a4b48b962e9bf6c033f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0a8c81bca9593be941c3329525564d7') in 0.045039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Abandoned park/Models/Small bike/Textures/velosiped_detail_n.tga
+  artifactKey: Guid(8bcf156c4782d8c48b2e1dcb34995079) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Small bike/Textures/velosiped_detail_n.tga using Guid(8bcf156c4782d8c48b2e1dcb34995079) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85f935a277566166a09a78dd8afd40ad') in 0.077169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Abandoned park/Models/posters/Textures/poster_02.tga
+  artifactKey: Guid(f3921a40a90bb2d4a90757a0f84d1149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/posters/Textures/poster_02.tga using Guid(f3921a40a90bb2d4a90757a0f84d1149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d5068bc6853d8a79edac0fc470ca306') in 0.061211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Abandoned park/Models/Small bike/Textures/velosiped_detail_s.tga
+  artifactKey: Guid(055d80b1422bf714e9e7bf7e86f5e953) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Small bike/Textures/velosiped_detail_s.tga using Guid(055d80b1422bf714e9e7bf7e86f5e953) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e44bd7c64c55b5f53173289053784614') in 0.050677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Abandoned park/Models/Sidewalk/Textures/Sidewalk_D.png
+  artifactKey: Guid(6f434154616f6c7409d1dc13ec434d50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Sidewalk/Textures/Sidewalk_D.png using Guid(6f434154616f6c7409d1dc13ec434d50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4487a7474a16be2782e61ee8ba57348') in 0.061688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Abandoned park/Models/reinforcement/Textures/reinforcement_s.tga
+  artifactKey: Guid(d89076945f683654c9b4240c58922826) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/reinforcement/Textures/reinforcement_s.tga using Guid(d89076945f683654c9b4240c58922826) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d553d74781896a829bda3049c905f9e') in 0.055593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Abandoned park/Models/Shvel/Materials/Shvel.mat
+  artifactKey: Guid(16cfba92116b4d44b9187be1dcf6aa8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Shvel/Materials/Shvel.mat using Guid(16cfba92116b4d44b9187be1dcf6aa8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28d8bd13c98b107798badcbdc7911d17') in 0.058670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Abandoned park/Models/streets_light/Materials/lighte.mat
+  artifactKey: Guid(07c4e37dbc2f29b409aa543aa1e8c1e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/streets_light/Materials/lighte.mat using Guid(07c4e37dbc2f29b409aa543aa1e8c1e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3b3daef5695045de42504df11035a4c') in 0.045561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Abandoned park/Models/streets_light/Materials/Diffuse.mat
+  artifactKey: Guid(1ef265efe7318ec46a45dcf075e56a4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/streets_light/Materials/Diffuse.mat using Guid(1ef265efe7318ec46a45dcf075e56a4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '699c70f6f16ca32670fc172fbe8de028') in 0.046170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Abandoned park/Models/small rocks/Textures/rock3_n.tga
+  artifactKey: Guid(a48a515f78c65924597a39afd9fcc63a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/small rocks/Textures/rock3_n.tga using Guid(a48a515f78c65924597a39afd9fcc63a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7197b1cec75589c8b63039d3452a526d') in 0.064079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Abandoned park/Models/stul/Materials/stul_d.mat
+  artifactKey: Guid(d2c0fcb5086ab9049955bc88cf1732f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/stul/Materials/stul_d.mat using Guid(d2c0fcb5086ab9049955bc88cf1732f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '890aacb576209898525bf21bf2dba370') in 0.060256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Abandoned park/Models/small rocks/Textures/rock1_n.tga
+  artifactKey: Guid(3c984f34168fa644f931a8d866231597) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/small rocks/Textures/rock1_n.tga using Guid(3c984f34168fa644f931a8d866231597) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5b7427f42e336fc74c57ee7728e04ab') in 0.060412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Abandoned park/Models/streets_light/Materials/streets_light_d.mat
+  artifactKey: Guid(af45b04abfa39964e9886f9ad55b7fc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/streets_light/Materials/streets_light_d.mat using Guid(af45b04abfa39964e9886f9ad55b7fc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cabce2873fbeb6b06a36e9b56b0323a2') in 0.054193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Abandoned park/Models/streets_light/Textures/streets_light_n.tga
+  artifactKey: Guid(5a502915bfb0a6047a6c9c455a003cbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/streets_light/Textures/streets_light_n.tga using Guid(5a502915bfb0a6047a6c9c455a003cbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e9833f5d86fb5f1338d55f491d09634') in 0.051689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Abandoned park/Texture/screen.png
+  artifactKey: Guid(9911eef9260a7ec4e816380bdaa4fff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Texture/screen.png using Guid(9911eef9260a7ec4e816380bdaa4fff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d06b643c9d8e7c071e6a4549d8f419c') in 0.073043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Abandoned park/Models/WGCELL/Materials/NokiaMat.mat
+  artifactKey: Guid(ada1b29aeae18db48ac62461b6da6595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/WGCELL/Materials/NokiaMat.mat using Guid(ada1b29aeae18db48ac62461b6da6595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f04970177818ae6cd126aaa023842b24') in 0.042769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Abandoned park/Models/Trash/Materials/trash_d.mat
+  artifactKey: Guid(94e3ae3b159479746a64977222a9aed5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Trash/Materials/trash_d.mat using Guid(94e3ae3b159479746a64977222a9aed5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95c61934d1140ea1d7532ff9ee69790c') in 0.061865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Abandoned park/Models/WGCELL/Materials/Mat.mat
+  artifactKey: Guid(862eee52ae45bf142ae9ae0f30b27720) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/WGCELL/Materials/Mat.mat using Guid(862eee52ae45bf142ae9ae0f30b27720) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62af1199b9c8a23a5f182d16d9fc7b59') in 0.068212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Abandoned park/Models/WGCELL/Materials/Buttom15Mat.mat
+  artifactKey: Guid(6d645fb9b3ff6c940853abee4735c87b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/WGCELL/Materials/Buttom15Mat.mat using Guid(6d645fb9b3ff6c940853abee4735c87b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33b0413b03c949778d87a0450677e93f') in 0.058886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Rides/SM_pirateship_pillars.prefab
+  artifactKey: Guid(29977df596e5c7c4183bf2625675a716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Rides/SM_pirateship_pillars.prefab using Guid(29977df596e5c7c4183bf2625675a716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '901b8396b6482a0aba2e895c1f2df0a3') in 0.042289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Abandoned park/Models/Additional textures/Materials/wall_01_d.mat
+  artifactKey: Guid(4523a9fd418692b44a7b025190cab537) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Additional textures/Materials/wall_01_d.mat using Guid(4523a9fd418692b44a7b025190cab537) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42235bdc98a51d2f2706bf35acfe7ca4') in 0.046705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Nature/SM_rock_03.prefab
+  artifactKey: Guid(b4302d806a1390242a3bcfd471650298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Nature/SM_rock_03.prefab using Guid(b4302d806a1390242a3bcfd471650298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28f781fd7906f03c0cd240c4f3c07831') in 0.042690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Abandoned park/Models/zhilet/Textures/zhilet_s.tga
+  artifactKey: Guid(3f519fa5cacaab640b16bba7add8102e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/zhilet/Textures/zhilet_s.tga using Guid(3f519fa5cacaab640b16bba7add8102e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9a5a8a45a1d945a18137122156c160f') in 0.054473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Abandoned park/Models/wheel/Materials/metal_rusted_d.mat
+  artifactKey: Guid(c382c6117fa597d488843a309cd7542b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/wheel/Materials/metal_rusted_d.mat using Guid(c382c6117fa597d488843a309cd7542b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67cc0ea5c21e6a5a2e6fbeb2a81b18bc') in 0.037897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Abandoned park/Models/Wood plank/Materials/wood_d 1.mat
+  artifactKey: Guid(88b7b59531e9a9d479f04edb8e91ebb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Wood plank/Materials/wood_d 1.mat using Guid(88b7b59531e9a9d479f04edb8e91ebb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f44f161bbba449957fd260b3d063ce6a') in 0.053040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Abandoned park/Models/WGCELL/Textures/AlbedoTransparency2.png
+  artifactKey: Guid(349f67167e4d20f40b3493c474e1e0f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/WGCELL/Textures/AlbedoTransparency2.png using Guid(349f67167e4d20f40b3493c474e1e0f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4bf00c53268f59890ba00a43f5232d09') in 0.065297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Abandoned park/Models/wheel/Materials/metal_01_d.mat
+  artifactKey: Guid(89acc7154d2eca644b1cf205cf3a02e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/wheel/Materials/metal_01_d.mat using Guid(89acc7154d2eca644b1cf205cf3a02e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e42de040133b23cf40d8c658bc043cb') in 0.045404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Abandoned park/Particles/Rain/Materials/Rain_2.mat
+  artifactKey: Guid(4ca04caa57f2996438fd083bdaa16a1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Particles/Rain/Materials/Rain_2.mat using Guid(4ca04caa57f2996438fd083bdaa16a1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27fb9920707cfae6e65402873c42371f') in 0.054327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Abandoned park/Particles/Rain/Materials/Rain_3.mat
+  artifactKey: Guid(5c8e66bb0d8708e44b8859e1a6d801e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Particles/Rain/Materials/Rain_3.mat using Guid(5c8e66bb0d8708e44b8859e1a6d801e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '251c3605e67c8bf899add5c09914bb53') in 0.049832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Abandoned park/Particles/Rain/Materials/Rain_1.mat
+  artifactKey: Guid(4e1d0eacb79d547428878fea82e13417) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Particles/Rain/Materials/Rain_1.mat using Guid(4e1d0eacb79d547428878fea82e13417) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '796294cb4c6804ab073c9b768e05b58d') in 0.047307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Abandoned park/Models/house/Materials/concrete_01_d.mat
+  artifactKey: Guid(e1966478980d2244690cd3bdfd469f9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/house/Materials/concrete_01_d.mat using Guid(e1966478980d2244690cd3bdfd469f9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a67b07d9e0d37e0a56204849fd344dd8') in 0.059737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Abandoned park/Models/Box 1/Materials/box_01_d1.mat
+  artifactKey: Guid(f99bb202b1b15b8479b6a269a901134b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Box 1/Materials/box_01_d1.mat using Guid(f99bb202b1b15b8479b6a269a901134b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c85ebb587b39094e893371e0c473fe3') in 0.046507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Abandoned park/Texture/Materials/New Material.mat
+  artifactKey: Guid(afedf940491820742b5e53a6d4442036) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Texture/Materials/New Material.mat using Guid(afedf940491820742b5e53a6d4442036) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9868b1af6cbc64f5ab70ed5ce2e07ee') in 0.035968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Abandoned park/Models/Small bike/Textures/metal_01_d.tga
+  artifactKey: Guid(f65341d8bb4c63b40b44589a6af16a3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Small bike/Textures/metal_01_d.tga using Guid(f65341d8bb4c63b40b44589a6af16a3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08ea5147d09e3df00a65bff14438d164') in 0.046541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Abandoned park/Models/concrete/Textures/concretedirt_d.tga
+  artifactKey: Guid(7816cf7cc8383884cb799ce700d1eb82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/concrete/Textures/concretedirt_d.tga using Guid(7816cf7cc8383884cb799ce700d1eb82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '959cdc99b38fb2dfc65f79e039addc1e') in 0.067179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Abandoned park/Models/WGCELL/Materials/Buttom2Mat.mat
+  artifactKey: Guid(774c6e1abc0baf74a9fa9505355d0b06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/WGCELL/Materials/Buttom2Mat.mat using Guid(774c6e1abc0baf74a9fa9505355d0b06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acfeb816a91399f41791ad3ed2ffbb3a') in 0.045315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Props/SM_trashbin_park_01.prefab
+  artifactKey: Guid(fd3f4c43a285b9c4a9184839d48846c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Props/SM_trashbin_park_01.prefab using Guid(fd3f4c43a285b9c4a9184839d48846c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59151599e7f1d858297e4daebe623aa4') in 0.042493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Abandoned park/Texture/Materials/TextureCam.renderTexture
+  artifactKey: Guid(a5d0263ebdc5b5a49a3cda088f9f9a8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Texture/Materials/TextureCam.renderTexture using Guid(a5d0263ebdc5b5a49a3cda088f9f9a8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a201f42f036b1b6b35fc47833d2b2d58') in 0.045259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Abandoned park/Models/Sidewalk/Sidewalk.fbx
+  artifactKey: Guid(3e11934e741843b4a94007377d2eaeaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/Sidewalk/Sidewalk.fbx using Guid(3e11934e741843b4a94007377d2eaeaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2dbb7ba9b69ad27266a1d0cfe7035a7') in 0.041102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Abandoned park/Scenes/LoadScene.unity
+  artifactKey: Guid(661d83b99de75d04886efddf72644a36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Scenes/LoadScene.unity using Guid(661d83b99de75d04886efddf72644a36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36e79b12ad303035e60089109cca8b30') in 0.024548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Amusement Park Stylized 1/PREFABS/Props/SM_bench_park_01.prefab
+  artifactKey: Guid(d27a108727d9a514b8b86b50862c2772) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/PREFABS/Props/SM_bench_park_01.prefab using Guid(d27a108727d9a514b8b86b50862c2772) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62dad719c294381087f70e26666789bb') in 0.027726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Amusement Park Stylized 1/MATERIALS/M_dark 1.mat
+  artifactKey: Guid(344296a4bffc92645b170d2a93aea53c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Amusement Park Stylized 1/MATERIALS/M_dark 1.mat using Guid(344296a4bffc92645b170d2a93aea53c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f32f7e39dca42fb7b1f5eea3d92a51a') in 0.043303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Abandoned park/Models/garbage 1/Textures/garbage_n.tga
+  artifactKey: Guid(4d6f2a5186dcc9e45a120d60067ac2d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/garbage 1/Textures/garbage_n.tga using Guid(4d6f2a5186dcc9e45a120d60067ac2d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '222f3d1c220c8a3b8eefa3649121f67e') in 0.041450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Abandoned park/Models/posters/Materials/poster_02.mat
+  artifactKey: Guid(23b3d98703c94c54bb95fa70fde99335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Models/posters/Materials/poster_02.mat using Guid(23b3d98703c94c54bb95fa70fde99335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53d85259795e4f97cf2bf9f5561faad6') in 0.043047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Abandoned park/Documentation/Abandoned park.pdf
+  artifactKey: Guid(86ced9240bb8e3f42a9038fdc4a8db83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Documentation/Abandoned park.pdf using Guid(86ced9240bb8e3f42a9038fdc4a8db83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1db4bdf4b94ac0fbb16736bf9f5a1979') in 0.075842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Abandoned park/Sounds/Underline Sound.mp3
+  artifactKey: Guid(b733ca1472e0176408ca54369cff5a96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Abandoned park/Sounds/Underline Sound.mp3 using Guid(b733ca1472e0176408ca54369cff5a96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b20e5c667c48c2d93646ccca3b8c0613') in 0.095975 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022084 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unityClone\HorroGame\HorroGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unityClone\HorroGame\HorroGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.695 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1696ms)
+		BeginReloadAssembly (357ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1188ms)
+			LoadAssemblies (317ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (465ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (0.6 MB). Loaded Objects now: 3873.
+Memory consumption went from 122.5 MB to 121.8 MB.
+Total: 4.316000 ms (FindLiveObjects: 0.264900 ms CreateObjectMapping: 0.145900 ms MarkObjects: 3.319800 ms  DeleteObjects: 0.584200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
