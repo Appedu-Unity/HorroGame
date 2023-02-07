@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Abandoned park/Scenes/demo.unity
+- path: Assets/NPC/Scenes/kitchen.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

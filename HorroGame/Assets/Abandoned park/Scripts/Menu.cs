@@ -11,7 +11,7 @@ public class Menu : MonoBehaviour {
 	public AudioSource _AudioSource;
 	public AudioClip UnderLineClip, ClickClip;
 	public Text[] ButtonsSaved;
-	public PlayerController _PlayerController;
+	public PlayerController2 _PlayerController;
 	// Use this for initialization
 	void Start () {
 	

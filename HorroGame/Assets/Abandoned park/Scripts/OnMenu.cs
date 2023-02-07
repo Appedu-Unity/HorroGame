@@ -17,7 +17,7 @@ public class OnMenu : MonoBehaviour {
 			{
 				if(GameObject.FindWithTag("Player"))
 					if(GameObject.FindWithTag("Player").activeSelf == true)
-						GameObject.FindWithTag("Player").GetComponent<PlayerController>().enabled = true;
+						GameObject.FindWithTag("Player").GetComponent<PlayerController2>().enabled = true;
 				MenuCanvas.SetActive(false);
 				sp = 1;
 			}
@@ -26,7 +26,7 @@ public class OnMenu : MonoBehaviour {
 			{
 				if(GameObject.FindWithTag("Player"))
 					if(GameObject.FindWithTag("Player").activeSelf == true)
-						GameObject.FindWithTag("Player").GetComponent<PlayerController>().enabled = false;
+						GameObject.FindWithTag("Player").GetComponent<PlayerController2>().enabled = false;
 				_Menu.Obvod.rectTransform.anchoredPosition = new Vector2 (0, 0);
 				MenuCanvas.SetActive(true);
 				_Menu.OptionsParentObject.SetActive (false);
