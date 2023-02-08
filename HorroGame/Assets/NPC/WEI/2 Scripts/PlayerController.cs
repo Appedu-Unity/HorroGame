@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 //using TreeEditor;
@@ -6,8 +7,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] public ＣommodityTransformPos commodityTransformPos;
+    private SystemCustomertwo systemCustomertwo;
     #region Field
     [SerializeField] GameObject cam;
+
+    [Header("NPC商品介紹位置")] public Collider[] PosTraget;
 
     [SerializeField] float UDSensitivity, RLSensitivity;
 
@@ -19,7 +24,15 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] float rangeStopNPC;
 
+    //[SerializeField] Collider[] PosTragets;
+
+    //public List<float> minpos;
+    //public List<float> minposSort;
+
     public GameObject UIC;
+
+    public LayerMask PosTragetLayerMask;
+
 
     bool isOpen;
     Rigidbody rig;
@@ -29,18 +42,82 @@ public class PlayerController : MonoBehaviour
     #region Base
     private void Awake()
     {
+        systemCustomertwo = GameObject.FindObjectOfType<SystemCustomertwo>().GetComponent<SystemCustomertwo>();
+        systemCustomertwo.enabled = true;
         coll = GetComponent<CapsuleCollider>();
         rig = GetComponent<Rigidbody>();
         cam = GameObject.Find("Main Camera");
     }
     private void Start()
     {
+        //PosTragets = systemCustomertwo.PosTraget;
         Init();
+
+
     }
+    //int a;
     void FixedUpdate()
     {
+        //float commodityPosRange;
+        //float commodityPosRange1;
+        //float commodityPosRange2;
+        //commodityPosRange = Vector3.Distance(this.transform.position, commodityTransformPos.ＣommodityPos[0].transform.position);
+        //commodityPosRange1 = Vector3.Distance(this.transform.position, commodityTransformPos.ＣommodityPos[1].transform.position);
+        //commodityPosRange2 = Vector3.Distance(this.transform.position, commodityTransformPos.ＣommodityPos[2].transform.position);
+
+        //List<Transform> comPos;
+
+
+        //if (a < 1)
+        //{
+        //    minpos.Add(commodityPosRange);
+        //    minpos.Add(commodityPosRange1);
+        //    minpos.Add(commodityPosRange2);
+
+        //    minpos.Sort();
+
+        //    //string posName = minpos[0].name
+        //    a = 1;
+
+        //    commodityTransformPos.transform = commodityTransformPos.ＣommodityPos[0].transform;
+        //}
+        //float minValue = Math.Min(Math.Min(commodityPosRange, commodityPosRange1), commodityPosRange2);
+
+
         View();
         Move();
+    }
+    void Update()
+    {
+        FollowTarget();
+
+    }
+    void FollowTarget()
+    {
+        PosTraget = Physics.OverlapSphere
+            (transform.position, 10000f, PosTragetLayerMask);
+
+        commodityTransformPos.transform = GetClosestPoint();
+
+    }
+    public Vector3 GetClosestPoint()
+    {
+        float commodityPosRange = Vector3.Distance(this.transform.position, PosTraget[0].transform.position);
+        float commodityPosRange1 = Vector3.Distance(this.transform.position, PosTraget[1].transform.position);
+        float commodityPosRange2 = Vector3.Distance(this.transform.position, PosTraget[2].transform.position);
+
+        if (commodityPosRange < commodityPosRange1 && commodityPosRange < commodityPosRange2)
+        {
+            return PosTraget[0].transform.position;
+        }
+        else if (commodityPosRange1 < commodityPosRange && commodityPosRange1 < commodityPosRange2)
+        {
+            return PosTraget[1].transform.position;
+        }
+        else
+        {
+            return PosTraget[2].transform.position;
+        }
     }
     #endregion
 

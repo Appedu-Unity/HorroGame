@@ -9,10 +9,12 @@ using Unity.VisualScripting;
 //using ReadyPlayerMe;
 using UnityEngine.UI;
 
+public enum NpcState { Idle, Run, Talk }
 public class SystemCustomer : MonoBehaviour
 {
     #region Field
-    [Header("移動速度")] public float speed;
+    [SerializeField] public ＣommodityTransformPos commodityTransformPos;
+    [Header("NPC移動速度")] public float speed;
     [Header("NPC避開後預設位置")][SerializeField] private Collider[] hitTraget;
     [Header("NPC商品介紹位置")][SerializeField] private Collider[] PosTraget;
     //[Header("NPC被呼叫位置")][SerializeField]private Collider[] callPosTraget;
@@ -20,7 +22,7 @@ public class SystemCustomer : MonoBehaviour
     public LayerMask PosTragetLayerMask;
     //public LayerMask callNpcLayerMask;
     public GameObject calllight, wriningLight;
-    public GameObject NPCTrageObj, NPCTragePos;
+    //public GameObject NPCTrageObj;
     public Transform TragePos;
     [SerializeField] int posID = 0;
     [SerializeField] float rangeDodge = 10f;
@@ -29,9 +31,10 @@ public class SystemCustomer : MonoBehaviour
     [SerializeField] float ovenRange = 10f;
     [SerializeField] float refrigeratorRange = 10f;
     [SerializeField] float rangeStopNPC = 1.8f;
+    [SerializeField] float posRange;
 
     //public Sprite ovenUI, refrigeratorUI, dishWasherUI;
-
+    public NpcState npcStateing;
     private Animator ani;
     private Rigidbody rig;
     private NavMeshAgent navMeshAgent;
@@ -42,33 +45,58 @@ public class SystemCustomer : MonoBehaviour
     #endregion
 
     #region Base fashion
+    public Vector3 GetClosestPoint()
+    {
+        float commodityPosRange = Vector3.Distance
+            (this.transform.position, PosTraget[0].transform.position);
+        float commodityPosRange1 = Vector3.Distance
+            (this.transform.position, PosTraget[1].transform.position);
+        float commodityPosRange2 = Vector3.Distance
+            (this.transform.position, PosTraget[2].transform.position);
+
+        if (commodityPosRange < commodityPosRange1
+            && commodityPosRange < commodityPosRange2)
+        {
+            return PosTraget[0].transform.position;
+        }
+        else if (commodityPosRange1 < commodityPosRange
+            && commodityPosRange1 < commodityPosRange2)
+        {
+            return PosTraget[1].transform.position;
+        }
+        else
+        {
+            return PosTraget[2].transform.position;
+        }
+    }
+    void GetPosRange()
+    {
+        float stop = navMeshAgent.stoppingDistance + 1;
+        posRange = Vector3.Distance(this.transform.position, navMeshAgent.destination);
+        if (posRange <= stop)
+        {
+
+            navMeshAgent.enabled = false;
+            npcStateing = NpcState.Idle;
+        }
+
+    }
     /// <summary>
     /// NPC避開點位
     /// </summary>
     /// <param name="other"></param>
     private void OnTriggerEnter(Collider other)
     {
-        
-        //if (other.gameObject.name == "CommodityPos1" ||
-        //    other.gameObject.name == "CommodityPos2" ||
-        //    other.gameObject.name == "CommodityPos3")
-        //{
-        //    wriningLight.GetComponent<MeshRenderer>().material.color = Color.white;
-        //    calllight.GetComponent<MeshRenderer>().material.color = Color.white;
-        //    ani.SetBool("Idle", true);
-        //    InvokeRepeating("FaceWhere", .01f, .01f);
-        //    StartCoroutine("TurnArround");
-        //    //FaceWhere();
-        //}
-        //if (other.tag == "NpcTrage")
-        //{
-        //    wriningLight.GetComponent<MeshRenderer>().material.color = Color.white;
-        //    calllight.GetComponent<MeshRenderer>().material.color = Color.white;
-        //    ani.SetBool("Idle", true);
-        //    InvokeRepeating("FaceWhere", .01f, .01f);
-        //    StartCoroutine("TurnArround");
-        //    //FaceWhere();
-        //}
+
+        if (navMeshAgent.remainingDistance == 0)
+        {
+            wriningLight.GetComponent<MeshRenderer>().material.color = Color.white;
+            calllight.GetComponent<MeshRenderer>().material.color = Color.white;
+            ani.SetBool("Idle", true);
+            InvokeRepeating("FaceWhere", .01f, .01f);
+            StartCoroutine("TurnArround");
+            //FaceWhere();
+        }
         if (other.gameObject.name == "Pos1")
         {
             //StartCoroutine(TurnArround());
@@ -115,14 +143,14 @@ public class SystemCustomer : MonoBehaviour
         Gizmos.color = new Color(1, 2, 6, 0.3f);
         Gizmos.DrawSphere(player.transform.position, rangeStopNPC);
 
-        Gizmos.color = new Color(0, 1, 0.7f, 0.3f);
-        Gizmos.DrawSphere(dishWasher.position, dishWasherRange);
+        //Gizmos.color = new Color(0, 1, 0.7f, 0.3f);
+        //Gizmos.DrawSphere(dishWasher.position, dishWasherRange);
 
-        Gizmos.color = new Color(1, 0, 0.7f, 0.3f);
-        Gizmos.DrawSphere(oven.position, ovenRange);
+        //Gizmos.color = new Color(1, 0, 0.7f, 0.3f);
+        //Gizmos.DrawSphere(oven.position, ovenRange);
 
-        Gizmos.color = new Color(1, 1, 0, 0.3f);
-        Gizmos.DrawSphere(refrigerator.position, refrigeratorRange);
+        //Gizmos.color = new Color(1, 1, 0, 0.3f);
+        //Gizmos.DrawSphere(refrigerator.position, refrigeratorRange);
     }
     /// <summary>
     /// NPC基本動作方法
@@ -189,6 +217,20 @@ public class SystemCustomer : MonoBehaviour
     }
     private void Update()
     {
+        switch (npcStateing)
+        {
+            case NpcState.Idle:
+                ani.SetBool("Idle", true);
+                break;
+            case NpcState.Run:
+                ani.SetBool("Idle", false);
+                ani.SetBool("Talk", false);
+                break;
+            case NpcState.Talk:
+                ani.SetBool("Talk", true);
+                ani.SetBool("Idle", true);
+                break;
+        }
         PlayerOnDrawGizmosIn();
     }
     #endregion
@@ -222,18 +264,18 @@ public class SystemCustomer : MonoBehaviour
         //transform.LookAt(player.transform.position - v);
         yield return null;
     }
-    IEnumerator CallNPCStatus()
-    {
-        if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
-        {
-            wriningLight.GetComponent<MeshRenderer>().material.color = Color.white;
-            calllight.GetComponent<MeshRenderer>().material.color = Color.white;
-            ani.SetBool("Idle", true);
-            InvokeRepeating("FaceWhere", .01f, .01f);
-            StartCoroutine("TurnArround");
-        }
-        yield return null;
-    }
+    //IEnumerator CallNPCStatus()
+    //{
+    //    if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
+    //    {
+    //        wriningLight.GetComponent<MeshRenderer>().material.color = Color.white;
+    //        calllight.GetComponent<MeshRenderer>().material.color = Color.white;
+    //        ani.SetBool("Idle", true);
+    //        InvokeRepeating("FaceWhere", .01f, .01f);
+    //        StartCoroutine("TurnArround");
+    //    }
+    //    yield return null;
+    //}
     #endregion
 
     #region Player call NPC fashion
@@ -244,13 +286,14 @@ public class SystemCustomer : MonoBehaviour
     {
         CancelInvoke();
         stopNPCMove = true;
-        ani.SetBool("Idle", false);
+        navMeshAgent.enabled = true;
+        npcStateing = NpcState.Run;
     }
     public void CallNPC()
     {
         call();
         calllight.GetComponent<MeshRenderer>().material.color = Color.red;
-        navMeshAgent.destination = NPCTragePos.transform.position;
+        navMeshAgent.destination = player.transform.position;
     }
     #endregion
     #region Button
@@ -274,10 +317,6 @@ public class SystemCustomer : MonoBehaviour
         call();
         wriningLight.GetComponent<MeshRenderer>().material.color = Color.blue;
         navMeshAgent.destination = PosTraget[0].transform.position;
-        if (navMeshAgent.remainingDistance < .5f)
-        {
-            print("哈囉哈囉哈囉");
-        }
     }
 
     public void Illustrate()

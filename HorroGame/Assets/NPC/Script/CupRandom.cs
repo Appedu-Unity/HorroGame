@@ -21,8 +21,8 @@ public class CupRandom : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Now playing : " + anim.GetCurrentAnimatorStateInfo(0).IsName("part1"));
-        Debug.Log("Now anim parameter is : " + now_anim);
+        //Debug.Log("Now playing : " + anim.GetCurrentAnimatorStateInfo(0).IsName("part1"));
+        //Debug.Log("Now anim parameter is : " + now_anim);
         if(anim.GetCurrentAnimatorStateInfo(0).IsName("part1") && now_anim != 1){
             StopAnim();
             anim_n["Cup1"].speed = 1.04f;
