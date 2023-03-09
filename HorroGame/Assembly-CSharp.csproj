@@ -77,7 +77,6 @@
     <Compile Include="Assets\Abandoned park\Scripts\HeadBobPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Stylized Office - Women\Shader\DoubleSided.shader" />
     <None Include="Assets\Abandoned park\Scripts\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
