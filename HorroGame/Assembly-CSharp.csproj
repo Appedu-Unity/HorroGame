@@ -72,10 +72,10 @@
     <Compile Include="Assets\Abandoned park\Scripts\PostEffectsBase.cs" />
     <Compile Include="Assets\Abandoned park\Scripts\Phone.cs" />
     <Compile Include="Assets\Abandoned park\Scripts\LoadScene.cs" />
+    <Compile Include="Assets\3 Scripts\HorseBaseAni.cs" />
     <Compile Include="Assets\Abandoned park\Scripts\FOVKickPlayer.cs" />
     <Compile Include="Assets\Abandoned park\Scripts\TriggersPhone.cs" />
     <Compile Include="Assets\Abandoned park\Scripts\HeadBobPlayer.cs" />
-    <Compile Include="Assets\3 Scripts\HorseBaseAni.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Abandoned park\Scripts\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
